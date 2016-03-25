@@ -1,0 +1,27 @@
+<html>
+	<body>
+		<div id="main">
+			
+
+		<!-- load sticker notes -->
+		<table>
+			<tr>
+				<td>id</td>
+				<td>name</td>
+				<td>message</td>
+			</tr>
+			<%for(var i = 0; i < list.length; i ++) {%>
+				<tr>
+					<td><%=list[i].post_id%></td>
+					<td><%=list[i].name%></td>
+					<td><%=list[i].message%></td>
+				</tr>
+			<%}%>
+		</table>
+
+		<a id="addButton" class="green-button" href="postit/add_note">Add a note</a>
+		
+		</div>
+
+	</body>
+</html>
