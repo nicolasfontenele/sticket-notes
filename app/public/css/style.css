@@ -39,9 +39,9 @@ span.data{ display:none; }
 
 /* The "Add a note" button: */
 #addButton{
-	position:absolute;
-	top:-70px;
-	left:0;
+	/*position:absolute;*/
+	/* top:-70px; */
+	/*left:0;*/
 }
 
 /* Green button class: */
@@ -56,7 +56,7 @@ a.green-button,a.green-button:visited{
 	width:60px;
 
 	text-shadow:1px 1px 1px #DDDDDD;
-	background:url(img/button_green.png) no-repeat left top;
+	background:url(../img/button-add-icon) no-repeat left top;
 }
 
 a.green-button:hover{
@@ -81,7 +81,7 @@ a.green-button:hover{
 	width:980px;
 	height:500px;
 	z-index:10;
-	background:url(img/add_a_note_help.gif) no-repeat left top;
+	/*background:url(img/add_a_note_help.gif) no-repeat left top;*/
 }
 
 h3.popupTitle{
